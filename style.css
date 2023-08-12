@@ -27,7 +27,12 @@ h1{
     bottom: -30px;
 }
 
-.logoHeader{
+.logoHeader1{
+    display: none;
+
+}
+.logoMock1{
+    visibility:visible;
     width: 150px;
     height: 150px;
 }
@@ -46,6 +51,9 @@ nav{
 nav a{
     margin: 30px;
 }
+.navMock2{
+    display: none;
+}
 
 .eventContainer h3{
     padding: 20px 0px 20px 0px;
@@ -55,11 +63,11 @@ nav a{
     color: wheat;
 }
 
-section{
+.articleContainer{
     width: 100%;
 }
 
-section article{
+.articleContainer article{
     margin: 28px;
 }
 article p {
