@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+header{
+    background-color: rgb(43, 42, 42);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+}
+.tituloContainer3{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.tituloMock3{
+    display: inline-block;
+    width: 480px;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #eeebeb;
+    background-color: rgb(100, 100, 100);
+    border: solid 2px #bdbdbe;
+    border-radius: 20px;
+}
+.navMock2 a{
+    text-decoration: none;
+    margin-right: 40px;
+    color: #fff;
+}
+.logoMock3{
+    width: 140px;
+}
+.fondoEncabezado{
+    width: 400px;
+    display: none;
+}
+.articleContainer{
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    width: 800px;
+    align-items: center;
+}
+.articleContainer article{
+    margin: 15px;
+    width: 500px;
+}
+.articleImgContainer{
+    padding: 10px;
+    margin: auto;
+}
+.articleImgContainer img{
+    width: 600px;
+    max-width: 100%;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 50px;
+    background-color: #ffffff69;
+}
+.contactArticle{
+    text-align: center;
+}
+h1 , .logoMock1 , .logoHeader1 ,nav{
+    display: none;
+}
