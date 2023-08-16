@@ -13,12 +13,12 @@ header{
     justify-content: space-between;
     padding: 0px 20px 0px 20px;
 }
-.tituloContainer3{
+.tituloContainer{
     width: 100%;
     text-align: center;
     margin-top: 20px;
 }
-.tituloMock3{
+.tituloMock{
     display: inline-block;
     width: 480px;
     font-size: 28px;
@@ -28,12 +28,12 @@ header{
     border: solid 2px #bdbdbe;
     border-radius: 20px;
 }
-.navMock2 a{
+nav a{
     text-decoration: none;
     margin-right: 40px;
     color: #fff;
 }
-.logoMock3{
+.logoMock{
     width: 140px;
 }
 .fondoEncabezado{
@@ -47,6 +47,16 @@ header{
     width: 800px;
     align-items: center;
 }
+.homeArticle{
+    text-align: left;
+}
+.rules{
+    padding: 20px 50px;
+    width: 100%;
+}
+.rules h2, p{
+    text-align: center;
+}
 .articleContainer article{
     margin: 15px;
     width: 500px;
@@ -54,6 +64,10 @@ header{
 .articleImgContainer{
     padding: 10px;
     margin: auto;
+}
+.about h3{
+    text-align: center;
+
 }
 .articleImgContainer img{
     width: 600px;
@@ -65,9 +79,61 @@ section{
     margin: 20px 50px;
     background-color: #ffffff69;
 }
+/* Estilos de reglas   */
 .contactArticle{
     text-align: center;
 }
-h1 , .logoMock1 , .logoHeader1 ,nav{
-    display: none;
+.articleContainer h3{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.tableContainer h2{
+    text-align: center;
+    margin: 15px;
+}
+.tableContainer{
+    height: 100%;
+}
+li ,ol{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+table{
+    margin: 0 auto;
+    background-color: rgb(219, 219, 218);
+    padding-bottom: 18px;
+}
+.ubicacion{
+    text-align: left;
+}
+tr{
+    text-align: center;
+}
+td{
+    text-align: center;
+    width: 200px;
+}
+th{
+    padding: 35px;
+}
+
+.footerContainer{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.footerContainer h4{
+    width: 150px;
+    display: inline-block;
+}
+.footerContainer p{
+    margin-bottom: 20px;
+}
+.phoneEmail{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
