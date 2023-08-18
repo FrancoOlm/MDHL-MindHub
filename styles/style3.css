@@ -101,12 +101,17 @@ li ,ol{
 }
 
 table{
+    width: 80%;
     margin: 0 auto;
     background-color: rgb(219, 219, 218);
+    border-radius: 2px;
+    box-shadow: 0px 3px 22px 7px rgba(148,148,148,0.76);
     padding-bottom: 18px;
 }
 .ubicacion{
     text-align: left;
+    padding-left: 50px;
+    width: 50px;
 }
 tr{
     text-align: center;
@@ -136,4 +141,105 @@ th{
     display: flex;
     width: 100%;
     justify-content: space-between;
+}
+
+/* Estilos formulario */
+.formContainer{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    flex-direction: column;
+}
+
+form{
+    width: 670px;
+    height: 100%;
+    border: solid 3px;
+    border-radius: 15px;
+    margin: 20px;
+    background-color: #e0e0e0;
+}
+fieldset{
+margin: 20px;
+padding: 10px;
+border-radius: 5px;
+}
+.streetInput{
+    width: 450px;
+}
+.zipCode{
+    width: 300px;
+}
+.gradeForm{
+    display: flex;
+    align-items: center;
+}
+
+.labelInputContainer{
+    display: inline-block;
+    margin: 8px;
+}
+
+.closestSchool h4{
+    margin: 5px;
+}
+.schoolContainer{
+    display: flex;
+    height: 100px;
+}
+.optionContainer{
+    width: 200px;
+    margin: 10px;
+}
+
+.positionContainer{
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    padding: 10px;
+}
+
+.formFooter{
+    padding: 15px;
+    margin-bottom: 1em;
+}
+.formFooter h3{
+    margin-bottom: 5px;
+}
+.formFooter p{
+    text-align: start;
+}
+.inputText{
+    background-color:#e0e0e0;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-left: none;
+}
+
+.submitContainer{
+    width: 100%;
+    text-align: center;
+}
+.submitContainer input{
+    width: 100px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+/* map estilos */
+.mapContainer{
+    margin-top: 30px;
+    padding: 5px;
+    width: 100%;
+    background-color: rgba(66, 60, 94, 0.247);
+}
+.mapContainer iframe{
+    width: 180px;
+    height: 180px;
+    margin: 5px;
+    
+}
+.iframeContainer{
+    display: inline-block;
 }
